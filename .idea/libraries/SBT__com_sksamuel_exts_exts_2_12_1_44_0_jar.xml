@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.sksamuel.exts:exts_2.12:1.44.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.sksamuel.exts/exts_2.12/jars/exts_2.12-1.44.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.sksamuel.exts/exts_2.12/srcs/exts_2.12-1.44.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

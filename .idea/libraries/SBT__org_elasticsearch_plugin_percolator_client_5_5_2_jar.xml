@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.elasticsearch.plugin:percolator-client:5.5.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.elasticsearch.plugin/percolator-client/jars/percolator-client-5.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.elasticsearch.plugin/percolator-client/srcs/percolator-client-5.5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

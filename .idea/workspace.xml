@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70e032ac-9e3c-43e0-b1df-ea7efd3e6643" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Scala4s.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/abhi/Scala4s.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="e#18#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/abhi/Scala4s.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Elastic4s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Elastic4s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Elastic4s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Elastic4s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Elastic4s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Elastic4s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abhi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scala4s.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Elastic4s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Elastic4s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Scala" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="elastic4s" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="lastUpdateTimestamp" value="1506798536672" />
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="Elastic4s" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="elastic4s" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="elastic4s-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../LearnPlay" value="1486917070000" />
+        <entry key="$PROJECT_DIR$/../event-sourceing-app" value="1486884074000" />
+        <entry key="$PROJECT_DIR$/../nova-shield" value="1485790520000" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70e032ac-9e3c-43e0-b1df-ea7efd3e6643" name="Default" comment="" />
+      <created>1506795049190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506795049190</updated>
+      <workItem from="1506795051233" duration="4640000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4640000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901296" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901296" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <marker date="1506798479958" expanded="true" signature="127:609" ph="(...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <marker date="1506798695264" expanded="true" signature="67:895" ph="..." />
+            <marker date="1506798695264" expanded="true" signature="121:717" ph="..." />
+            <marker date="1506798695264" expanded="true" signature="174:285" ph="..." />
+            <marker date="1506798695264" expanded="true" signature="353:699" ph="..." />
+            <marker date="1506798695264" expanded="true" signature="543:627" ph="..." />
+            <marker date="1506798695264" expanded="true" signature="731:878" ph="..." />
+            <marker date="1506798695264" expanded="true" signature="759:863" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.sksamuel.elastic4s/elastic4s-core_2.12/srcs/elastic4s-core_2.12-5.5.3-sources.jar!/com/sksamuel/elastic4s/ElasticsearchClientUri.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="47" column="11" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+          <folding>
+            <marker date="1504873402000" expanded="false" signature="39:112" ph="..." />
+            <marker date="1504873402000" expanded="true" signature="144:1250" ph="{...}" />
+            <marker date="1504873402000" expanded="true" signature="302:397" ph="/**...*/" />
+            <marker date="1504873402000" expanded="true" signature="551:1248" ph="{...}" />
+            <marker date="1504873402000" expanded="true" signature="567:1244" ph="{...}" />
+            <marker date="1504873402000" expanded="true" signature="613:1133" ph="..." />
+            <marker date="1504873402000" expanded="true" signature="666:795" ph="(...)" />
+            <marker date="1504873402000" expanded="true" signature="953:1068" ph="(...)" />
+            <marker date="1504873402000" expanded="true" signature="1252:1651" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.elasticsearch/elasticsearch/srcs/elasticsearch-5.5.2-sources.jar!/org/elasticsearch/common/settings/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="83" column="47" lean-forward="true" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
+          <folding>
+            <marker date="1502718305000" expanded="false" signature="0:788" ph="/.../" />
+            <marker date="1502718305000" expanded="false" signature="841:3077" ph="..." />
+            <marker date="1502718305000" expanded="true" signature="3079:3127" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="3331:3393" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="3447:3513" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="3568:3656" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="3736:3818" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="3929:4157" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="4214:4360" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="4366:4514" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="4653:4872" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="4878:4944" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="4984:5109" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="5115:5226" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="5269:5349" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="5355:5425" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="5478:6026" ph="{...}" />
+            <marker date="1502718305000" expanded="false" signature="5815:5845" ph="/unchecked/" />
+            <marker date="1502718305000" expanded="true" signature="6130:7754" ph="{...}" />
+            <marker date="1502718305000" expanded="false" signature="6227:6257" ph="/unchecked/" />
+            <marker date="1502718305000" expanded="false" signature="7230:7260" ph="/unchecked/" />
+            <marker date="1502718305000" expanded="true" signature="7501:7632" ph="//..." />
+            <marker date="1502718305000" expanded="true" signature="7820:9219" ph="{...}" />
+            <marker date="1502718305000" expanded="false" signature="8505:8535" ph="/unchecked/" />
+            <marker date="1502718305000" expanded="true" signature="8981:9055" ph="//..." />
+            <marker date="1502718305000" expanded="true" signature="9225:9320" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="9368:9596" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="9602:9741" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="9798:9986" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="9992:10065" ph="/**...*/" />
+            <marker date="1502718305000" expanded="false" signature="10115:10126" ph=" { " />
+            <marker date="1502718305000" expanded="false" signature="10160:10166" ph=" }" />
+            <marker date="1502718305000" expanded="true" signature="10172:10365" ph="/**...*/" />
+            <marker date="1502718305000" expanded="false" signature="10403:10414" ph=" { " />
+            <marker date="1502718305000" expanded="false" signature="10443:10449" ph=" }" />
+            <marker date="1502718305000" expanded="true" signature="10455:10598" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="10658:10758" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="10764:10918" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="10983:11337" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="11343:11498" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="11566:11923" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="11929:12081" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="12148:12500" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="12506:12659" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="12721:13072" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="13078:13234" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="13305:13789" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="13795:13948" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="14020:14095" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="14101:14254" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="14364:14444" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="14450:14754" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="14854:14961" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="14967:15245" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="15341:15419" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="15425:15578" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="15675:15741" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="15747:16156" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="16235:16311" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="16317:16748" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="16850:16919" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="16925:17503" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="17629:19078" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="19086:19157" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="19248:19303" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="19309:19380" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="19497:19851" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="19978:20713" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="20718:20789" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="20862:20904" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="21002:21065" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="21071:21115" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="21213:21575" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="21581:21641" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="21673:22446" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="22044:22275" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="22452:22512" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="22565:22824" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="22876:23148" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="23190:23285" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="23372:23628" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="23731:23969" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="23975:24050" ph="/**...*/" />
+            <marker date="1502718305000" expanded="false" signature="24086:24097" ph=" { " />
+            <marker date="1502718305000" expanded="false" signature="24118:24124" ph=" }" />
+            <marker date="1502718305000" expanded="true" signature="24237:24768" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="24930:25089" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="25119:25240" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="25246:25308" ph="/**...*/" />
+            <marker date="1502718305000" expanded="false" signature="25330:25341" ph=" { " />
+            <marker date="1502718305000" expanded="false" signature="25364:25370" ph=" }" />
+            <marker date="1502718305000" expanded="true" signature="25376:25459" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="25492:26079" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="26085:26283" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="26316:44009" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="26646:26658" ph="{...}" />
+            <marker date="1502718305000" expanded="false" signature="26708:26723" ph=" { " />
+            <marker date="1502718305000" expanded="false" signature="26739:26749" ph=" }" />
+            <marker date="1502718305000" expanded="true" signature="26759:26874" ph="/**...*/" />
+            <marker date="1502718305000" expanded="false" signature="26915:26930" ph=" { " />
+            <marker date="1502718305000" expanded="false" signature="26953:26963" ph=" }" />
+            <marker date="1502718305000" expanded="true" signature="26973:27049" ph="/**...*/" />
+            <marker date="1502718305000" expanded="false" signature="27087:27102" ph=" { " />
+            <marker date="1502718305000" expanded="false" signature="27122:27132" ph=" }" />
+            <marker date="1502718305000" expanded="true" signature="27142:27223" ph="/**...*/" />
+            <marker date="1502718305000" expanded="false" signature="27273:27288" ph=" { " />
+            <marker date="1502718305000" expanded="false" signature="27316:27326" ph=" }" />
+            <marker date="1502718305000" expanded="true" signature="27400:27648" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="27658:27805" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="27853:28691" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="28701:28907" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="28961:29030" ph="{...}" />
+            <marker date="1502718305000" expanded="false" signature="29074:29089" ph=" { " />
+            <marker date="1502718305000" expanded="false" signature="29120:29130" ph=" }" />
+            <marker date="1502718305000" expanded="true" signature="29140:29361" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="29414:29493" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="29503:29727" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="29786:29871" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="29881:30097" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="30152:30237" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="30299:30373" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="30383:30601" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="30657:30742" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="30752:30972" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="31029:31114" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="31124:31346" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="31404:31489" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="31499:31717" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="31792:31887" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="31897:32115" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="32194:32287" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="32525:32743" ph="/**...*/" />
+            <marker date="1502718305000" expanded="false" signature="32809:32824" ph=" { " />
+            <marker date="1502718305000" expanded="false" signature="32872:32882" ph=" }" />
+            <marker date="1502718305000" expanded="true" signature="32892:33108" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="33178:33590" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="33600:33707" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="33777:34313" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="34323:34373" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="34502:34944" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="34954:35012" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="35059:35364" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="35374:35432" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="35490:35638" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="35648:36111" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="36218:37204" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="37214:37272" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="37338:37544" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="37554:37829" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="37903:38315" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="38325:38532" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="38613:39037" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="39047:39199" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="39266:39435" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="39445:39600" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="39695:40085" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="40206:40468" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="40478:40679" ph="/**...*/" />
+            <marker date="1502718305000" expanded="false" signature="40732:40747" ph=" { " />
+            <marker date="1502718305000" expanded="false" signature="40798:40808" ph=" }" />
+            <marker date="1502718305000" expanded="true" signature="40918:42923" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="41137:42068" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="41238:41483" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="41586:41763" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="41877:42054" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="42552:42701" ph="//..." />
+            <marker date="1502718305000" expanded="true" signature="42933:43146" ph="/**...*/" />
+            <marker date="1502718305000" expanded="true" signature="43201:43750" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="43760:43899" ph="/**...*/" />
+            <marker date="1502718305000" expanded="false" signature="43931:43946" ph=" { " />
+            <marker date="1502718305000" expanded="false" signature="43993:44003" ph=" }" />
+            <marker date="1502718305000" expanded="true" signature="44177:48993" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="44569:47834" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="44745:47793" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="44840:47646" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="44991:47627" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="45195:46199" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="46295:47605" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="46900:47578" ph="{...}" />
+            <marker date="1502718305000" expanded="false" signature="46998:47037" ph=" { " />
+            <marker date="1502718305000" expanded="false" signature="47088:47122" ph=" }" />
+            <marker date="1502718305000" expanded="false" signature="47222:47261" ph=" { " />
+            <marker date="1502718305000" expanded="false" signature="47287:47321" ph=" }" />
+            <marker date="1502718305000" expanded="false" signature="47433:47472" ph=" { " />
+            <marker date="1502718305000" expanded="false" signature="47514:47548" ph=" }" />
+            <marker date="1502718305000" expanded="false" signature="47707:47730" ph=" { " />
+            <marker date="1502718305000" expanded="false" signature="47761:47779" ph=" }" />
+            <marker date="1502718305000" expanded="true" signature="47935:48052" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="48110:48394" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="48461:48755" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="48801:48987" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="49069:50730" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="49464:49672" ph="{...}" />
+            <marker date="1502718305000" expanded="false" signature="49725:49740" ph=" { " />
+            <marker date="1502718305000" expanded="false" signature="49767:49777" ph=" }" />
+            <marker date="1502718305000" expanded="true" signature="49842:50259" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="50364:50440" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="50542:50616" ph="{...}" />
+            <marker date="1502718305000" expanded="true" signature="50683:50724" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.sksamuel.elastic4s/elastic4s-tcp_2.12/srcs/elastic4s-tcp_2.12-5.5.3-sources.jar!/com/sksamuel/elastic4s/TcpClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="71" column="6" lean-forward="false" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+          <folding>
+            <marker date="1504872889000" expanded="false" signature="39:528" ph="..." />
+            <marker date="1504872889000" expanded="true" signature="546:1007" ph="{...}" />
+            <marker date="1504872889000" expanded="true" signature="817:1005" ph="{...}" />
+            <marker date="1504872889000" expanded="true" signature="1147:3891" ph="{...}" />
+            <marker date="1504872889000" expanded="true" signature="1154:1272" ph="/**...*/" />
+            <marker date="1504872889000" expanded="true" signature="1323:1415" ph="..." />
+            <marker date="1504872889000" expanded="true" signature="1341:1415" ph="{...}" />
+            <marker date="1504872889000" expanded="true" signature="1419:1560" ph="/**...*/" />
+            <marker date="1504872889000" expanded="true" signature="1605:1736" ph="..." />
+            <marker date="1504872889000" expanded="true" signature="1623:1736" ph="{...}" />
+            <marker date="1504872889000" expanded="true" signature="1740:2088" ph="/**...*/" />
+            <marker date="1504872889000" expanded="true" signature="2299:2983" ph="/**...*/" />
+            <marker date="1504872889000" expanded="true" signature="3128:3889" ph="{...}" />
+            <marker date="1504872889000" expanded="true" signature="3213:3323" ph="(...)" />
+            <marker date="1504872889000" expanded="true" signature="3397:3641" ph="{...}" />
+            <marker date="1504872889000" expanded="true" signature="3416:3635" ph="(...)" />
+            <marker date="1504872889000" expanded="true" signature="3426:3634" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1504872889000" expanded="true" signature="3755:3862" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/abhi/Scala4s.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

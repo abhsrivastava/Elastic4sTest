@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="elastic4s$sources_2.12"
+		revision="1.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170930140831"/>
+	<dependencies>
+		<module organisation="com.sksamuel.elastic4s" name="elastic4s-circe_2.12">
+			<revision name="5.5.3" status="release" pubdate="20170908071620" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sksamuel/elastic4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="83">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4224" time="0" location="/Users/ASrivastava/.ivy2/cache/com.sksamuel.elastic4s/elastic4s-circe_2.12/ivy-5.5.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sksamuel/elastic4s/elastic4s-circe_2.12/5.5.3/elastic4s-circe_2.12-5.5.3.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="5.5.3" rev-constraint-default="5.5.3" rev-constraint-dynamic="5.5.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="elastic4s-circe_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1434" time="0" location="/Users/ASrivastava/.ivy2/cache/com.sksamuel.elastic4s/elastic4s-circe_2.12/srcs/elastic4s-circe_2.12-5.5.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sksamuel/elastic4s/elastic4s-circe_2.12/5.5.3/elastic4s-circe_2.12-5.5.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sksamuel.elastic4s" name="elastic4s-http_2.12">
+			<revision name="5.5.3" status="release" pubdate="20170908071640" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sksamuel/elastic4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="72">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="5160" time="0" location="/Users/ASrivastava/.ivy2/cache/com.sksamuel.elastic4s/elastic4s-http_2.12/ivy-5.5.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sksamuel/elastic4s/elastic4s-http_2.12/5.5.3/elastic4s-http_2.12-5.5.3.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="5.5.3" rev-constraint-default="5.5.3" rev-constraint-dynamic="5.5.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="elastic4s-http_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="95987" time="0" location="/Users/ASrivastava/.ivy2/cache/com.sksamuel.elastic4s/elastic4s-http_2.12/srcs/elastic4s-http_2.12-5.5.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sksamuel/elastic4s/elastic4s-http_2.12/5.5.3/elastic4s-http_2.12-5.5.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.5.3" status="release" pubdate="20170121100023" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9802" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.5.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="4.5.3" rev-constraint-default="4.5.3" rev-constraint-dynamic="4.5.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="712826" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.5.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-generic_2.12">
+			<revision name="0.7.1" status="release" pubdate="20170403220641" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3536" time="0" location="/Users/ASrivastava/.ivy2/cache/io.circe/circe-generic_2.12/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/0.7.1/circe-generic_2.12-0.7.1.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="1.0" extra-info.apiURL="https://circe.github.io/circe/api/"/>
+				<artifacts>
+					<artifact name="circe-generic_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12539" time="0" location="/Users/ASrivastava/.ivy2/cache/io.circe/circe-generic_2.12/srcs/circe-generic_2.12-0.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/0.7.1/circe-generic_2.12-0.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.12">
+			<revision name="2.3.2" status="release" pubdate="20161102045049" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3267" time="0" location="/Users/ASrivastava/.ivy2/cache/com.chuusai/shapeless_2.12/ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="shapeless_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="163673" time="0" location="/Users/ASrivastava/.ivy2/cache/com.chuusai/shapeless_2.12/srcs/shapeless_2.12-2.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-parser_2.12">
+			<revision name="0.7.1" status="release" pubdate="20170403220700" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3079" time="0" location="/Users/ASrivastava/.ivy2/cache/io.circe/circe-parser_2.12/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.7.1/circe-parser_2.12-0.7.1.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="1.0" extra-info.apiURL="https://circe.github.io/circe/api/"/>
+				<artifacts>
+					<artifact name="circe-parser_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="828" time="0" location="/Users/ASrivastava/.ivy2/cache/io.circe/circe-parser_2.12/srcs/circe-parser_2.12-0.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.7.1/circe-parser_2.12-0.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sksamuel.elastic4s" name="elastic4s-streams_2.12">
+			<revision name="5.5.3" status="release" pubdate="20170908072800" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sksamuel/elastic4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4379" time="0" location="/Users/ASrivastava/.ivy2/cache/com.sksamuel.elastic4s/elastic4s-streams_2.12/ivy-5.5.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sksamuel/elastic4s/elastic4s-streams_2.12/5.5.3/elastic4s-streams_2.12-5.5.3.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="5.5.3" rev-constraint-default="5.5.3" rev-constraint-dynamic="5.5.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="elastic4s-streams_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8536" time="0" location="/Users/ASrivastava/.ivy2/cache/com.sksamuel.elastic4s/elastic4s-streams_2.12/srcs/elastic4s-streams_2.12-5.5.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sksamuel/elastic4s/elastic4s-streams_2.12/5.5.3/elastic4s-streams_2.12-5.5.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.0" status="release" pubdate="20150429111454" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="92">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2598" time="0" location="/Users/ASrivastava/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3130" time="0" location="/Users/ASrivastava/.ivy2/cache/org.reactivestreams/reactive-streams/srcs/reactive-streams-1.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.12">
+			<revision name="2.4.17" status="release" pubdate="20170210094250" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.17" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3104" time="0" location="/Users/ASrivastava/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/ivy-2.4.17.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.4.17/akka-actor_2.12-2.4.17.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.4.17" rev-constraint-default="2.4.17" rev-constraint-dynamic="2.4.17" callerrev="1.0" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.17"/>
+				<artifacts>
+					<artifact name="akka-actor_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="407401" time="0" location="/Users/ASrivastava/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.4.17-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.4.17/akka-actor_2.12-2.4.17-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.12">
+			<revision name="0.8.0" status="release" pubdate="20161029171227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="97">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3101" time="0" location="/Users/ASrivastava/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63853" time="0" location="/Users/ASrivastava/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/srcs/scala-java8-compat_2.12-0.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sksamuel.elastic4s" name="elastic4s-tcp_2.12">
+			<revision name="5.5.3" status="release" pubdate="20170908071454" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sksamuel/elastic4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="57">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="7248" time="0" location="/Users/ASrivastava/.ivy2/cache/com.sksamuel.elastic4s/elastic4s-tcp_2.12/ivy-5.5.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sksamuel/elastic4s/elastic4s-tcp_2.12/5.5.3/elastic4s-tcp_2.12-5.5.3.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="5.5.3" rev-constraint-default="5.5.3" rev-constraint-dynamic="5.5.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="elastic4s-tcp_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="115021" time="0" location="/Users/ASrivastava/.ivy2/cache/com.sksamuel.elastic4s/elastic4s-tcp_2.12/srcs/elastic4s-tcp_2.12-5.5.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sksamuel/elastic4s/elastic4s-tcp_2.12/5.5.3/elastic4s-tcp_2.12-5.5.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.tdunning" name="t-digest">
+			<revision name="3.1" status="release" pubdate="20150405200516" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/tdunning/t-digest" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3737" time="0" location="/Users/ASrivastava/.ivy2/cache/com.tdunning/t-digest/ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/tdunning/t-digest/3.1/t-digest-3.1.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="t-digest" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="39638" time="0" location="/Users/ASrivastava/.ivy2/cache/com.tdunning/t-digest/srcs/t-digest-3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/tdunning/t-digest/3.1/t-digest-3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9.9" status="release" pubdate="20170323083313" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6647" time="0" location="/Users/ASrivastava/.ivy2/cache/joda-time/joda-time/ivy-2.9.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.9.9" rev-constraint-default="2.9.9" rev-constraint-dynamic="2.9.9" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="778815" time="0" location="/Users/ASrivastava/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.9.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-1.2-api">
+			<revision name="2.6.2" status="release" pubdate="20160705215039" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="25710" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.logging.log4j/log4j-1.2-api/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-1.2-api/2.6.2/log4j-1.2-api-2.6.2.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="log4j-1.2-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="47409" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.logging.log4j/log4j-1.2-api/srcs/log4j-1.2-api-2.6.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-1.2-api/2.6.2/log4j-1.2-api-2.6.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch.client" name="transport">
+			<revision name="5.5.2" status="release" pubdate="20170814084523" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/elastic/elasticsearch" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3699" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch.client/transport/ivy-5.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/elasticsearch/client/transport/5.5.2/transport-5.5.2.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="5.5.2" rev-constraint-default="5.5.2" rev-constraint-dynamic="5.5.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="transport" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7623" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch.client/transport/srcs/transport-5.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/elasticsearch/client/transport/5.5.2/transport-5.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch.plugin" name="parent-join-client">
+			<revision name="5.5.2" status="release" pubdate="20170814084739" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/elastic/elasticsearch" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3656" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch.plugin/parent-join-client/ivy-5.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/elasticsearch/plugin/parent-join-client/5.5.2/parent-join-client-5.5.2.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="5.5.2" rev-constraint-default="5.5.2" rev-constraint-dynamic="5.5.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="parent-join-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27116" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch.plugin/parent-join-client/srcs/parent-join-client-5.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/elasticsearch/plugin/parent-join-client/5.5.2/parent-join-client-5.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch.plugin" name="lang-mustache-client">
+			<revision name="5.5.2" status="release" pubdate="20170814084736" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/elastic/elasticsearch" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3802" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch.plugin/lang-mustache-client/ivy-5.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/elasticsearch/plugin/lang-mustache-client/5.5.2/lang-mustache-client-5.5.2.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="5.5.2" rev-constraint-default="5.5.2" rev-constraint-dynamic="5.5.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lang-mustache-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="38171" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch.plugin/lang-mustache-client/srcs/lang-mustache-client-5.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/elasticsearch/plugin/lang-mustache-client/5.5.2/lang-mustache-client-5.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.spullara.mustache.java" name="compiler">
+			<revision name="0.9.3" status="release" pubdate="20160719125639" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/spullara/mustache.java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="81">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3484" time="0" location="/Users/ASrivastava/.ivy2/cache/com.github.spullara.mustache.java/compiler/ivy-0.9.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/spullara/mustache/java/compiler/0.9.3/compiler-0.9.3.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.9.3" rev-constraint-default="0.9.3" rev-constraint-dynamic="0.9.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53817" time="0" location="/Users/ASrivastava/.ivy2/cache/com.github.spullara.mustache.java/compiler/srcs/compiler-0.9.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/spullara/mustache/java/compiler/0.9.3/compiler-0.9.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch.plugin" name="reindex-client">
+			<revision name="5.5.2" status="release" pubdate="20170814084747" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/elastic/elasticsearch" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3824" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch.plugin/reindex-client/ivy-5.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/elasticsearch/plugin/reindex-client/5.5.2/reindex-client-5.5.2.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="5.5.2" rev-constraint-default="5.5.2" rev-constraint-dynamic="5.5.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="reindex-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57756" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch.plugin/reindex-client/srcs/reindex-client-5.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/elasticsearch/plugin/reindex-client/5.5.2/reindex-client-5.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch.plugin" name="transport-netty3-client">
+			<revision name="5.5.2" status="release" pubdate="20170814084750" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/elastic/elasticsearch" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3777" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch.plugin/transport-netty3-client/ivy-5.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/elasticsearch/plugin/transport-netty3-client/5.5.2/transport-netty3-client-5.5.2.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="5.5.2" rev-constraint-default="5.5.2" rev-constraint-dynamic="5.5.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="transport-netty3-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="52874" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch.plugin/transport-netty3-client/srcs/transport-netty3-client-5.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/elasticsearch/plugin/transport-netty3-client/5.5.2/transport-netty3-client-5.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.10.6.Final" status="release" pubdate="20160629074528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="7071" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty/ivy-3.10.6.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="3.10.6.Final" rev-constraint-default="3.10.6.Final" rev-constraint-dynamic="3.10.6.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1132389" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty/srcs/netty-3.10.6.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sksamuel.elastic4s" name="elastic4s-core_2.12">
+			<revision name="5.5.3" status="release" pubdate="20170908072308" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sksamuel/elastic4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="35">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4325" time="0" location="/Users/ASrivastava/.ivy2/cache/com.sksamuel.elastic4s/elastic4s-core_2.12/ivy-5.5.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sksamuel/elastic4s/elastic4s-core_2.12/5.5.3/elastic4s-core_2.12-5.5.3.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="5.5.3" rev-constraint-default="5.5.3" rev-constraint-dynamic="5.5.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="elastic4s-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="158398" time="0" location="/Users/ASrivastava/.ivy2/cache/com.sksamuel.elastic4s/elastic4s-core_2.12/srcs/elastic4s-core_2.12-5.5.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sksamuel/elastic4s/elastic4s-core_2.12/5.5.3/elastic4s-core_2.12-5.5.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12">
+			<revision name="2.8.8" status="release" pubdate="20170405135043" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleScala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4217" time="0" location="/Users/ASrivastava/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.12/ivy-2.8.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.8/jackson-module-scala_2.12-2.8.8.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.8.8" rev-constraint-default="2.8.8" rev-constraint-dynamic="2.8.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-module-scala_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53619" time="0" location="/Users/ASrivastava/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.12/srcs/jackson-module-scala_2.12-2.8.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.8/jackson-module-scala_2.12-2.8.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer">
+			<revision name="2.8.8" status="release" pubdate="20170404224326" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-modules-base" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="21310" time="0" location="/Users/ASrivastava/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/ivy-2.8.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.8/jackson-module-paranamer-2.8.8.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.8.8" rev-constraint-default="2.8.8" rev-constraint-dynamic="2.8.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-module-paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7271" time="0" location="/Users/ASrivastava/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/srcs/jackson-module-paranamer-2.8.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.8/jackson-module-paranamer-2.8.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.8.8" status="release" pubdate="20170404222047" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="79">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6969" time="0" location="/Users/ASrivastava/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.8.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.8/jackson-annotations-2.8.8.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.8.8" rev-constraint-default="2.8.8" rev-constraint-dynamic="2.8.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57660" time="0" location="/Users/ASrivastava/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.8.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.8/jackson-annotations-2.8.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.8.8" status="release" pubdate="20170404222958" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="78">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8156" time="0" location="/Users/ASrivastava/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.8.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.8.8" rev-constraint-default="2.8.8" rev-constraint-dynamic="2.8.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="927247" time="0" location="/Users/ASrivastava/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.8.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.8.8" status="release" pubdate="20170404222329" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7423" time="0" location="/Users/ASrivastava/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.8.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.8.8" rev-constraint-default="2.8.8" rev-constraint-dynamic="2.8.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="294498" time="0" location="/Users/ASrivastava/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.8.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.12" status="release" pubdate="20150326165005" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4727" time="0" location="/Users/ASrivastava/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.12.xml" searched="false" origin-is-local="true" origin-location="/Users/ASrivastava/activator-dist-1.3.12/repository/org.slf4j/slf4j-api/1.7.12/ivys/ivy.xml"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50813" time="0" location="/Users/ASrivastava/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats_2.12">
+			<revision name="0.9.0" status="release" pubdate="20170115173138" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="4044" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/cats_2.12/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/typelevel/cats_2.12/0.9.0/cats_2.12-0.9.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="246" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/cats_2.12/srcs/cats_2.12-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats_2.12/0.9.0/cats_2.12-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-jvm_2.12">
+			<revision name="0.9.0" status="release" pubdate="20170115173125" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="50">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3348" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/cats-jvm_2.12/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.12/0.9.0/cats-jvm_2.12-0.9.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-jvm_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="243" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/cats-jvm_2.12/srcs/cats-jvm_2.12-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.12/0.9.0/cats-jvm_2.12-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-free_2.12">
+			<revision name="0.9.0" status="release" pubdate="20170115173128" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="38">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3358" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/cats-free_2.12/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/typelevel/cats-free_2.12/0.9.0/cats-free_2.12-0.9.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-free_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13314" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/cats-free_2.12/srcs/cats-free_2.12-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-free_2.12/0.9.0/cats-free_2.12-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch.plugin" name="transport-netty4-client">
+			<revision name="5.5.2" status="release" pubdate="20170814084754" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/elastic/elasticsearch" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6693" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch.plugin/transport-netty4-client/ivy-5.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/elasticsearch/plugin/transport-netty4-client/5.5.2/transport-netty4-client-5.5.2.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="5.5.2" rev-constraint-default="5.5.2" rev-constraint-dynamic="5.5.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="transport-netty4-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50823" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch.plugin/transport-netty4-client/srcs/transport-netty4-client-5.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/elasticsearch/plugin/transport-netty4-client/5.5.2/transport-netty4-client-5.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-http">
+			<revision name="4.1.11.Final" status="release" pubdate="20170511114254" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="96">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16870" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty-codec-http/ivy-4.1.11.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.11.Final/netty-codec-http-4.1.11.Final.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="4.1.11.Final" rev-constraint-default="4.1.11.Final" rev-constraint-dynamic="4.1.11.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-codec-http" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="426861" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty-codec-http/srcs/netty-codec-http-4.1.11.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.11.Final/netty-codec-http-4.1.11.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch.plugin" name="percolator-client">
+			<revision name="5.5.2" status="release" pubdate="20170814084743" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/elastic/elasticsearch" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3686" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch.plugin/percolator-client/ivy-5.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/elasticsearch/plugin/percolator-client/5.5.2/percolator-client-5.5.2.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="5.5.2" rev-constraint-default="5.5.2" rev-constraint-dynamic="5.5.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="percolator-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53061" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch.plugin/percolator-client/srcs/percolator-client-5.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/elasticsearch/plugin/percolator-client/5.5.2/percolator-client-5.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch" name="elasticsearch">
+			<revision name="5.5.2" status="release" pubdate="20170814084233" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/elastic/elasticsearch" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="95">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11403" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch/elasticsearch/ivy-5.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch/5.5.2/elasticsearch-5.5.2.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="5.5.2" rev-constraint-default="5.5.2" rev-constraint-dynamic="5.5.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="elasticsearch" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5790510" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch/elasticsearch/srcs/elasticsearch-5.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch/5.5.2/elasticsearch-5.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch" name="jna">
+			<revision name="4.4.0" status="release" pubdate="20170412213324" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/java-native-access/jna" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2554" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch/jna/ivy-4.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/elasticsearch/jna/4.4.0/jna-4.4.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="4.4.0" rev-constraint-default="4.4.0" rev-constraint-dynamic="4.4.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jna" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="146165" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch/jna/srcs/jna-4.4.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/elasticsearch/jna/4.4.0/jna-4.4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vividsolutions" name="jts">
+			<revision name="1.13" status="release" pubdate="20121213232909" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://sourceforge.net/projects/jts-topo-suite" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<license name="Lesser General Public License (LGPL)" url="http://www.gnu.org/copyleft/lesser.txt"/>
+				<metadata-artifact status="no" details="" size="2853" time="0" location="/Users/ASrivastava/.ivy2/cache/com.vividsolutions/jts/ivy-1.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vividsolutions/jts/1.13/jts-1.13.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="1.13" rev-constraint-default="1.13" rev-constraint-dynamic="1.13" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jts" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="973570" time="0" location="/Users/ASrivastava/.ivy2/cache/com.vividsolutions/jts/srcs/jts-1.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vividsolutions/jts/1.13/jts-1.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-cbor">
+			<revision name="2.8.6" status="release" pubdate="20170111233921" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson-dataformats-binary" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9668" time="0" location="/Users/ASrivastava/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/ivy-2.8.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.8.6/jackson-dataformat-cbor-2.8.6.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.8.6" rev-constraint-default="2.8.6" rev-constraint-dynamic="2.8.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-cbor" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="41050" time="0" location="/Users/ASrivastava/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/srcs/jackson-dataformat-cbor-2.8.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.8.6/jackson-dataformat-cbor-2.8.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-yaml">
+			<revision name="2.8.6" status="release" pubdate="20170111233820" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="73">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8856" time="0" location="/Users/ASrivastava/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/ivy-2.8.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.8.6/jackson-dataformat-yaml-2.8.6.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.8.6" rev-constraint-default="2.8.6" rev-constraint-dynamic="2.8.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-yaml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30562" time="0" location="/Users/ASrivastava/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/srcs/jackson-dataformat-yaml-2.8.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.8.6/jackson-dataformat-yaml-2.8.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-smile">
+			<revision name="2.8.6" status="release" pubdate="20170111233932" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson-dataformats-binary" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="93">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9618" time="0" location="/Users/ASrivastava/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/ivy-2.8.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.8.6/jackson-dataformat-smile-2.8.6.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.8.6" rev-constraint-default="2.8.6" rev-constraint-dynamic="2.8.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-smile" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="70006" time="0" location="/Users/ASrivastava/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/srcs/jackson-dataformat-smile-2.8.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.8.6/jackson-dataformat-smile-2.8.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.15" status="release" pubdate="20150219072710" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<license name="Apache License Version 2.0" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3591" time="0" location="/Users/ASrivastava/.ivy2/cache/org.yaml/snakeyaml/ivy-1.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.15/snakeyaml-1.15.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="1.15" rev-constraint-default="1.15" rev-constraint-dynamic="1.15" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="169119" time="0" location="/Users/ASrivastava/.ivy2/cache/org.yaml/snakeyaml/srcs/snakeyaml-1.15-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.15/snakeyaml-1.15-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.carrotsearch" name="hppc">
+			<revision name="0.7.1" status="release" pubdate="20150507023334" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7109" time="0" location="/Users/ASrivastava/.ivy2/cache/com.carrotsearch/hppc/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.7.1/hppc-0.7.1.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="hppc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="738368" time="0" location="/Users/ASrivastava/.ivy2/cache/com.carrotsearch/hppc/srcs/hppc-0.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.7.1/hppc-0.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.jopt-simple" name="jopt-simple">
+			<revision name="5.0.2" status="release" pubdate="20160608131008" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://pholser.github.io/jopt-simple" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="The MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4258" time="0" location="/Users/ASrivastava/.ivy2/cache/net.sf.jopt-simple/jopt-simple/ivy-5.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.2/jopt-simple-5.0.2.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="5.0.2" rev-constraint-default="5.0.2" rev-constraint-dynamic="5.0.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jopt-simple" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="85461" time="0" location="/Users/ASrivastava/.ivy2/cache/net.sf.jopt-simple/jopt-simple/srcs/jopt-simple-5.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.2/jopt-simple-5.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch" name="securesm">
+			<revision name="1.1" status="release" pubdate="20160705070927" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3403" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch/securesm/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/elasticsearch/securesm/1.1/securesm-1.1.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="securesm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6883" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch/securesm/srcs/securesm-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/elasticsearch/securesm/1.1/securesm-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-suggest">
+			<revision name="6.6.0" status="release" pubdate="20170605120251" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="71">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="398297" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-suggest/ivy-6.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-suggest/6.6.0/lucene-suggest-6.6.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="6.6.0" rev-constraint-default="6.6.0" rev-constraint-dynamic="6.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-suggest" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="201518" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-suggest/srcs/lucene-suggest-6.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-suggest/6.6.0/lucene-suggest-6.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-spatial">
+			<revision name="6.6.0" status="release" pubdate="20170605120052" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="397815" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-spatial/ivy-6.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial/6.6.0/lucene-spatial-6.6.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="6.6.0" rev-constraint-default="6.6.0" rev-constraint-dynamic="6.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-spatial" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50439" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-spatial/srcs/lucene-spatial-6.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial/6.6.0/lucene-spatial-6.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-highlighter">
+			<revision name="6.6.0" status="release" pubdate="20170605121504" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="398878" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-highlighter/ivy-6.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-highlighter/6.6.0/lucene-highlighter-6.6.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="6.6.0" rev-constraint-default="6.6.0" rev-constraint-dynamic="6.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-highlighter" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="180923" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-highlighter/srcs/lucene-highlighter-6.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-highlighter/6.6.0/lucene-highlighter-6.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-memory">
+			<revision name="6.6.0" status="release" pubdate="20170605121411" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="74">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="398258" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-memory/ivy-6.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-memory/6.6.0/lucene-memory-6.6.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="6.6.0" rev-constraint-default="6.6.0" rev-constraint-dynamic="6.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-memory" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27096" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-memory/srcs/lucene-memory-6.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-memory/6.6.0/lucene-memory-6.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-queryparser">
+			<revision name="6.6.0" status="release" pubdate="20170605120512" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="398354" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-queryparser/ivy-6.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/6.6.0/lucene-queryparser-6.6.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="6.6.0" rev-constraint-default="6.6.0" rev-constraint-dynamic="6.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-queryparser" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="407211" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-queryparser/srcs/lucene-queryparser-6.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/6.6.0/lucene-queryparser-6.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-sandbox">
+			<revision name="6.6.0" status="release" pubdate="20170605121604" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="397733" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-sandbox/ivy-6.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/6.6.0/lucene-sandbox-6.6.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="6.6.0" rev-constraint-default="6.6.0" rev-constraint-dynamic="6.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-sandbox" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="121419" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-sandbox/srcs/lucene-sandbox-6.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/6.6.0/lucene-sandbox-6.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-analyzers-common">
+			<revision name="6.6.0" status="release" pubdate="20170605121157" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="85">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="397817" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/ivy-6.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/6.6.0/lucene-analyzers-common-6.6.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="6.6.0" rev-constraint-default="6.6.0" rev-constraint-dynamic="6.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-analyzers-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1455164" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/srcs/lucene-analyzers-common-6.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/6.6.0/lucene-analyzers-common-6.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sksamuel.exts" name="exts_2.12">
+			<revision name="1.44.0" status="release" pubdate="20170514112655" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sksamuel/exts" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="MIT" url="https://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3509" time="0" location="/Users/ASrivastava/.ivy2/cache/com.sksamuel.exts/exts_2.12/ivy-1.44.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sksamuel/exts/exts_2.12/1.44.0/exts_2.12-1.44.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="1.44.0" rev-constraint-default="1.44.0" rev-constraint-dynamic="1.44.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="exts_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18059" time="0" location="/Users/ASrivastava/.ivy2/cache/com.sksamuel.exts/exts_2.12/srcs/exts_2.12-1.44.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sksamuel/exts/exts_2.12/1.44.0/exts_2.12-1.44.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.0" status="release" pubdate="20150508104611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="86">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2912" time="0" location="/Users/ASrivastava/.ivy2/cache/com.typesafe/config/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="167084" time="0" location="/Users/ASrivastava/.ivy2/cache/com.typesafe/config/srcs/config-1.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-all">
+			<revision name="4.1.10.Final" status="release" pubdate="20170429073713" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="21035" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty-all/ivy-4.1.10.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-all/4.1.10.Final/netty-all-4.1.10.Final.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="4.1.10.Final" rev-constraint-default="4.1.10.Final" rev-constraint-dynamic="4.1.10.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-all" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2871704" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty-all/srcs/netty-all-4.1.10.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-all/4.1.10.Final/netty-all-4.1.10.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-jawn_2.12">
+			<revision name="0.7.1" status="release" pubdate="20170403220649" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3081" time="0" location="/Users/ASrivastava/.ivy2/cache/io.circe/circe-jawn_2.12/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.7.1/circe-jawn_2.12-0.7.1.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="1.0" extra-info.apiURL="https://circe.github.io/circe/api/"/>
+				<artifacts>
+					<artifact name="circe-jawn_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2041" time="0" location="/Users/ASrivastava/.ivy2/cache/io.circe/circe-jawn_2.12/srcs/circe-jawn_2.12-0.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.7.1/circe-jawn_2.12-0.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-core_2.12">
+			<revision name="0.7.1" status="release" pubdate="20170403220619" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3080" time="0" location="/Users/ASrivastava/.ivy2/cache/io.circe/circe-core_2.12/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.7.1/circe-core_2.12-0.7.1.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="1.0" extra-info.apiURL="https://circe.github.io/circe/api/"/>
+				<artifacts>
+					<artifact name="circe-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37749" time="0" location="/Users/ASrivastava/.ivy2/cache/io.circe/circe-core_2.12/srcs/circe-core_2.12-0.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.7.1/circe-core_2.12-0.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-numbers_2.12">
+			<revision name="0.7.1" status="release" pubdate="20170403220601" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3047" time="0" location="/Users/ASrivastava/.ivy2/cache/io.circe/circe-numbers_2.12/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.7.1/circe-numbers_2.12-0.7.1.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="1.0" extra-info.apiURL="https://circe.github.io/circe/api/"/>
+				<artifacts>
+					<artifact name="circe-numbers_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3821" time="0" location="/Users/ASrivastava/.ivy2/cache/io.circe/circe-numbers_2.12/srcs/circe-numbers_2.12-0.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.7.1/circe-numbers_2.12-0.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-backward-codecs">
+			<revision name="6.6.0" status="release" pubdate="20170605121047" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="397779" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-backward-codecs/ivy-6.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-backward-codecs/6.6.0/lucene-backward-codecs-6.6.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="6.6.0" rev-constraint-default="6.6.0" rev-constraint-dynamic="6.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-backward-codecs" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50121" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-backward-codecs/srcs/lucene-backward-codecs-6.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-backward-codecs/6.6.0/lucene-backward-codecs-6.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler">
+			<revision name="4.1.11.Final" status="release" pubdate="20170511114230" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17992" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty-handler/ivy-4.1.11.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.11.Final/netty-handler-4.1.11.Final.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="4.1.11.Final" rev-constraint-default="4.1.11.Final" rev-constraint-dynamic="4.1.11.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-handler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="241312" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty-handler/srcs/netty-handler-4.1.11.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.11.Final/netty-handler-4.1.11.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec">
+			<revision name="4.1.11.Final" status="release" pubdate="20170511114001" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="88">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17948" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty-codec/ivy-4.1.11.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.11.Final/netty-codec-4.1.11.Final.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="4.1.11.Final" rev-constraint-default="4.1.11.Final" rev-constraint-dynamic="4.1.11.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="256938" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty-codec/srcs/netty-codec-4.1.11.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.11.Final/netty-codec-4.1.11.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport">
+			<revision name="4.1.11.Final" status="release" pubdate="20170511113931" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16774" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty-transport/ivy-4.1.11.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.11.Final/netty-transport-4.1.11.Final.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="4.1.11.Final" rev-constraint-default="4.1.11.Final" rev-constraint-dynamic="4.1.11.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-transport" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="288974" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty-transport/srcs/netty-transport-4.1.11.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.11.Final/netty-transport-4.1.11.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-resolver">
+			<revision name="4.1.11.Final" status="release" pubdate="20170511113830" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16624" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty-resolver/ivy-4.1.11.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.11.Final/netty-resolver-4.1.11.Final.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="4.1.11.Final" rev-constraint-default="4.1.11.Final" rev-constraint-dynamic="4.1.11.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-resolver" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24409" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty-resolver/srcs/netty-resolver-4.1.11.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.11.Final/netty-resolver-4.1.11.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-buffer">
+			<revision name="4.1.11.Final" status="release" pubdate="20170511113809" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="87">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16620" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty-buffer/ivy-4.1.11.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.11.Final/netty-buffer-4.1.11.Final.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="4.1.11.Final" rev-constraint-default="4.1.11.Final" rev-constraint-dynamic="4.1.11.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-buffer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="167122" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty-buffer/srcs/netty-buffer-4.1.11.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.11.Final/netty-buffer-4.1.11.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-common">
+			<revision name="4.1.11.Final" status="release" pubdate="20170511113644" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="90">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="19018" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty-common/ivy-4.1.11.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-common/4.1.11.Final/netty-common-4.1.11.Final.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="4.1.11.Final" rev-constraint-default="4.1.11.Final" rev-constraint-dynamic="4.1.11.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="304027" time="0" location="/Users/ASrivastava/.ivy2/cache/io.netty/netty-common/srcs/netty-common-4.1.11.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-common/4.1.11.Final/netty-common-4.1.11.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-core">
+			<revision name="2.9.1" status="release" pubdate="20170918010451" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="10">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="34419" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.logging.log4j/log4j-core/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.9.1/log4j-core-2.9.1.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="log4j-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1177268" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.logging.log4j/log4j-core/srcs/log4j-core-2.9.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.9.1/log4j-core-2.9.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hdrhistogram" name="HdrHistogram">
+			<revision name="2.1.9" status="release" pubdate="20160518093331" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hdrhistogram.github.io/HdrHistogram/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="94">
+				<license name="Public Domain, per Creative Commons CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="4190" time="0" location="/Users/ASrivastava/.ivy2/cache/org.hdrhistogram/HdrHistogram/ivy-2.1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.1.9" rev-constraint-default="2.1.9" rev-constraint-dynamic="2.1.9" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="HdrHistogram" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="111315" time="0" location="/Users/ASrivastava/.ivy2/cache/org.hdrhistogram/HdrHistogram/srcs/HdrHistogram-2.1.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-api">
+			<revision name="2.9.1" status="release" pubdate="20170918005129" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="48">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="29105" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.9.1/log4j-api-2.9.1.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="log4j-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="227071" time="266" location="/Users/ASrivastava/.ivy2/cache/org.apache.logging.log4j/log4j-api/srcs/log4j-api-2.9.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.9.1/log4j-api-2.9.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch.client" name="rest">
+			<revision name="5.5.2" status="release" pubdate="20170814084517" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/elastic/elasticsearch" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4533" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch.client/rest/ivy-5.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/elasticsearch/client/rest/5.5.2/rest-5.5.2.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="5.5.2" rev-constraint-default="5.5.2" rev-constraint-dynamic="5.5.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="rest" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27145" time="0" location="/Users/ASrivastava/.ivy2/cache/org.elasticsearch.client/rest/srcs/rest-5.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/elasticsearch/client/rest/5.5.2/rest-5.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.10" status="release" pubdate="20141106091535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10597" time="0" location="/Users/ASrivastava/.ivy2/cache/commons-codec/commons-codec/ivy-1.10.xml" searched="false" origin-is-local="true" origin-location="/Users/ASrivastava/activator-dist-1.3.12/repository/commons-codec/commons-codec/1.10/ivys/ivy.xml"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="301032" time="0" location="/Users/ASrivastava/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpasyncclient">
+			<revision name="4.1.2" status="release" pubdate="20160618075203" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-asyncclient" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<license name="Apache License, Version 2.0" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="9765" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.httpcomponents/httpasyncclient/ivy-4.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpasyncclient/4.1.2/httpasyncclient-4.1.2.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="4.1.2" rev-constraint-default="4.1.2" rev-constraint-dynamic="4.1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="httpasyncclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="139450" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.httpcomponents/httpasyncclient/srcs/httpasyncclient-4.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpasyncclient/4.1.2/httpasyncclient-4.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore-nio">
+			<revision name="4.4.5" status="release" pubdate="20160608114051" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7781" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.httpcomponents/httpcore-nio/ivy-4.4.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.5/httpcore-nio-4.4.5.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="4.4.5" rev-constraint-default="4.4.5" rev-constraint-dynamic="4.4.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="httpcore-nio" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="358477" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.httpcomponents/httpcore-nio/srcs/httpcore-nio-4.4.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.5/httpcore-nio-4.4.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.4.5" status="release" pubdate="20160608113939" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="80">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7705" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.4.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.5/httpcore-4.4.5.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="4.4.5" rev-constraint-default="4.4.5" rev-constraint-dynamic="4.4.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="403554" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.4.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.5/httpcore-4.4.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.2" status="release" pubdate="20140705141228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11612" time="0" location="/Users/ASrivastava/.ivy2/cache/commons-logging/commons-logging/ivy-1.2.xml" searched="false" origin-is-local="true" origin-location="/Users/ASrivastava/activator-dist-1.3.12/repository/commons-logging/commons-logging/1.2/ivys/ivy.xml"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73295" time="0" location="/Users/ASrivastava/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.3" status="release" pubdate="20170725054444" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.3/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/Users/ASrivastava/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.12.3" rev-constraint-default="2.12.3" rev-constraint-dynamic="2.12.3" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.12.3/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="577394" time="0" location="/Users/ASrivastava/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.3" status="release" pubdate="20170725054730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.3/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="40">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/ASrivastava/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.12.3" rev-constraint-default="2.12.3" rev-constraint-dynamic="2.12.3" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.12.3/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="990602" time="0" location="/Users/ASrivastava/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-join">
+			<revision name="6.6.0" status="release" pubdate="20170605121849" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="397728" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-join/ivy-6.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-join/6.6.0/lucene-join-6.6.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="6.6.0" rev-constraint-default="6.6.0" rev-constraint-dynamic="6.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-join" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63298" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-join/srcs/lucene-join-6.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-join/6.6.0/lucene-join-6.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-spatial-extras">
+			<revision name="6.6.0" status="release" pubdate="20170605121302" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="399088" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-spatial-extras/ivy-6.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial-extras/6.6.0/lucene-spatial-extras-6.6.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="6.6.0" rev-constraint-default="6.6.0" rev-constraint-dynamic="6.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-spatial-extras" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="152457" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-spatial-extras/srcs/lucene-spatial-extras-6.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial-extras/6.6.0/lucene-spatial-extras-6.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.locationtech.spatial4j" name="spatial4j">
+			<revision name="0.6" status="release" pubdate="20160226153900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.locationtech.org/projects/locationtech.spatial4j" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="69">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4147" time="0" location="/Users/ASrivastava/.ivy2/cache/org.locationtech.spatial4j/spatial4j/ivy-0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/locationtech/spatial4j/spatial4j/0.6/spatial4j-0.6.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.6" rev-constraint-default="0.6" rev-constraint-dynamic="0.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="spatial4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="134651" time="0" location="/Users/ASrivastava/.ivy2/cache/org.locationtech.spatial4j/spatial4j/srcs/spatial4j-0.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/locationtech/spatial4j/spatial4j/0.6/spatial4j-0.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-spatial3d">
+			<revision name="6.6.0" status="release" pubdate="20170605120405" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="84">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="397783" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-spatial3d/ivy-6.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial3d/6.6.0/lucene-spatial3d-6.6.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="6.6.0" rev-constraint-default="6.6.0" rev-constraint-dynamic="6.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-spatial3d" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="224489" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-spatial3d/srcs/lucene-spatial3d-6.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial3d/6.6.0/lucene-spatial3d-6.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-misc">
+			<revision name="6.6.0" status="release" pubdate="20170605123224" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="397741" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-misc/ivy-6.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/6.6.0/lucene-misc-6.6.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="6.6.0" rev-constraint-default="6.6.0" rev-constraint-dynamic="6.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-misc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="115627" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-misc/srcs/lucene-misc-6.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/6.6.0/lucene-misc-6.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.8" status="release" pubdate="20150826062928" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<metadata-artifact status="no" details="" size="4211" time="0" location="/Users/ASrivastava/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="2.8" rev-constraint-default="2.8" rev-constraint-dynamic="2.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27125" time="0" location="/Users/ASrivastava/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-laws_2.12">
+			<revision name="0.9.0" status="release" pubdate="20170115173144" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="2">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="4321" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/cats-laws_2.12/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/typelevel/cats-laws_2.12/0.9.0/cats-laws_2.12-0.9.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-laws_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50610" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/cats-laws_2.12/srcs/cats-laws_2.12-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.12/0.9.0/cats-laws_2.12-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-kernel-laws_2.12">
+			<revision name="0.9.0" status="release" pubdate="20170115173053" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="89">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3638" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/cats-kernel-laws_2.12/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.12/0.9.0/cats-kernel-laws_2.12-0.9.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-kernel-laws_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5341" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/cats-kernel-laws_2.12/srcs/cats-kernel-laws_2.12-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.12/0.9.0/cats-kernel-laws_2.12-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="catalysts-platform_2.12">
+			<revision name="0.0.5" status="release" pubdate="20161107153451" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/catalysts" extra-info.apiURL="https://typelevel.github.io/catalysts/api/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="91">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3009" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/catalysts-platform_2.12/ivy-0.0.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.12/0.0.5/catalysts-platform_2.12-0.0.5.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.0.5" rev-constraint-default="0.0.5" rev-constraint-dynamic="0.0.5" callerrev="1.0" extra-info.apiURL="https://typelevel.github.io/catalysts/api/"/>
+				<artifacts>
+					<artifact name="catalysts-platform_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="663" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/catalysts-platform_2.12/srcs/catalysts-platform_2.12-0.0.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.12/0.0.5/catalysts-platform_2.12-0.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="catalysts-macros_2.12">
+			<revision name="0.0.5" status="release" pubdate="20161107153435" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/catalysts" extra-info.apiURL="https://typelevel.github.io/catalysts/api/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="42">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3286" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/catalysts-macros_2.12/ivy-0.0.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.12/0.0.5/catalysts-macros_2.12-0.0.5.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.0.5" rev-constraint-default="0.0.5" rev-constraint-dynamic="0.0.5" callerrev="1.0" extra-info.apiURL="https://typelevel.github.io/catalysts/api/"/>
+				<artifacts>
+					<artifact name="catalysts-macros_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1435" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/catalysts-macros_2.12/srcs/catalysts-macros_2.12-0.0.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.12/0.0.5/catalysts-macros_2.12-0.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="discipline_2.12">
+			<revision name="0.7.2" status="release" pubdate="20161102130648" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/discipline" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="51">
+				<license name="MIT" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3236" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/discipline_2.12/ivy-0.7.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/typelevel/discipline_2.12/0.7.2/discipline_2.12-0.7.2.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="discipline_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4126" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/discipline_2.12/srcs/discipline_2.12-0.7.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/discipline_2.12/0.7.2/discipline_2.12-0.7.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-core_2.12">
+			<revision name="0.9.0" status="release" pubdate="20170115173305" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3480" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/cats-core_2.12/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/0.9.0/cats-core_2.12-0.9.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="135323" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/cats-core_2.12/srcs/cats-core_2.12-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/0.9.0/cats-core_2.12-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-kernel_2.12">
+			<revision name="0.9.0" status="release" pubdate="20170115173107" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="15">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2797" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/cats-kernel_2.12/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/0.9.0/cats-kernel_2.12-0.9.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-kernel_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33234" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/cats-kernel_2.12/srcs/cats-kernel_2.12-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/0.9.0/cats-kernel_2.12-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-macros_2.12">
+			<revision name="0.9.0" status="release" pubdate="20170115173024" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="5">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3086" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/cats-macros_2.12/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/0.9.0/cats-macros_2.12-0.9.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-macros_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1199" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/cats-macros_2.12/srcs/cats-macros_2.12-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/0.9.0/cats-macros_2.12-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="machinist_2.12">
+			<revision name="0.6.1" status="release" pubdate="20161029101418" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="77">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2844" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/machinist_2.12/ivy-0.6.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.1/machinist_2.12-0.6.1.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="machinist_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3546" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/machinist_2.12/srcs/machinist_2.12-0.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.1/machinist_2.12-0.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.mpilquist" name="simulacrum_2.12">
+			<revision name="0.10.0" status="release" pubdate="20161103091330" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mpilquist/simulacrum" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="31">
+				<license name="Three-clause BSD-style" url="https://github.com/mpilquist/simulacrum/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3189" time="0" location="/Users/ASrivastava/.ivy2/cache/com.github.mpilquist/simulacrum_2.12/ivy-0.10.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.12/0.10.0/simulacrum_2.12-0.10.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.10.0" rev-constraint-default="0.10.0" rev-constraint-dynamic="0.10.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="simulacrum_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6576" time="0" location="/Users/ASrivastava/.ivy2/cache/com.github.mpilquist/simulacrum_2.12/srcs/simulacrum_2.12-0.10.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.12/0.10.0/simulacrum_2.12-0.10.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.12">
+			<revision name="1.1.1" status="release" pubdate="20161102034258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3023" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/macro-compat_2.12/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="macro-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1052" time="0" location="/Users/ASrivastava/.ivy2/cache/org.typelevel/macro-compat_2.12/srcs/macro-compat_2.12-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-grouping">
+			<revision name="6.6.0" status="release" pubdate="20170605123027" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="398018" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-grouping/ivy-6.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-grouping/6.6.0/lucene-grouping-6.6.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="6.6.0" rev-constraint-default="6.6.0" rev-constraint-dynamic="6.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-grouping" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="74075" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-grouping/srcs/lucene-grouping-6.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-grouping/6.6.0/lucene-grouping-6.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-queries">
+			<revision name="6.6.0" status="release" pubdate="20170605122212" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="76">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="397740" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-queries/ivy-6.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/6.6.0/lucene-queries-6.6.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="6.6.0" rev-constraint-default="6.6.0" rev-constraint-dynamic="6.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-queries" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="146758" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-queries/srcs/lucene-queries-6.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/6.6.0/lucene-queries-6.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-core">
+			<revision name="6.6.0" status="release" pubdate="20170605121720" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="396893" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-core/ivy-6.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/6.6.0/lucene-core-6.6.0.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="6.6.0" rev-constraint-default="6.6.0" rev-constraint-dynamic="6.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2047484" time="0" location="/Users/ASrivastava/.ivy2/cache/org.apache.lucene/lucene-core/srcs/lucene-core-6.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/6.6.0/lucene-core-6.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="jawn-parser_2.12">
+			<revision name="0.10.4" status="release" pubdate="20161112220016" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/non/jawn" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2936" time="0" location="/Users/ASrivastava/.ivy2/cache/org.spire-math/jawn-parser_2.12/ivy-0.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.10.4/jawn-parser_2.12-0.10.4.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="0.10.4" rev-constraint-default="0.10.4" rev-constraint-dynamic="0.10.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jawn-parser_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18474" time="0" location="/Users/ASrivastava/.ivy2/cache/org.spire-math/jawn-parser_2.12/srcs/jawn-parser_2.12-0.10.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.10.4/jawn-parser_2.12-0.10.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalacheck" name="scalacheck_2.12">
+			<revision name="1.13.4" status="release" pubdate="20161101091622" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalacheck.org" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="4">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2858" time="0" location="/Users/ASrivastava/.ivy2/cache/org.scalacheck/scalacheck_2.12/ivy-1.13.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.13.4/scalacheck_2.12-1.13.4.pom"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="1.13.4" rev-constraint-default="1.13.4" rev-constraint-dynamic="1.13.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalacheck_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53555" time="0" location="/Users/ASrivastava/.ivy2/cache/org.scalacheck/scalacheck_2.12/srcs/scalacheck_2.12-1.13.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.13.4/scalacheck_2.12-1.13.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="test-interface">
+			<revision name="1.0" status="release" pubdate="20130628184435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="82">
+				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2710" time="0" location="/Users/ASrivastava/.ivy2/cache/org.scala-sbt/test-interface/ivy-1.0.xml" searched="false" origin-is-local="true" origin-location="/Users/ASrivastava/activator-dist-1.3.12/repository/org.scala-sbt/test-interface/1.0/ivys/ivy.xml"/>
+				<caller organisation="default" name="elastic4s$sources_2.12" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="test-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18792" time="0" location="/Users/ASrivastava/.ivy2/cache/org.scala-sbt/test-interface/srcs/test-interface-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
